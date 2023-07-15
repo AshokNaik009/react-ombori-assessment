@@ -47,8 +47,8 @@ function Userlist() {
       <div className="container">
       <div class="center">
             <h1>React Assessment</h1>
-            <div class="our-team-text"> List Demo 3rd party Package used React Inifinte Scroll,Axios
-            </div>
+            {/* <div class="our-team-text"> List Demo 3rd party Package used React Inifinte Scroll,Axios
+            </div> */}
         </div>
 
         <div className="cards">
@@ -64,11 +64,12 @@ function Userlist() {
               src={usr.avatar}
               alt={usr.first_name}
             />
-            <h3 className="card-name">{usr.first_name}  {usr.last_name}</h3>
-            <p className="card-text">{usr.email}</p>
-            <a href="#" class="btn">
+            <h3 className="card-name txtName">{usr.first_name}  {usr.last_name}</h3>
+            <br/>
+            
+            {/* <a href="#" class="btn">
               About
-            </a>
+            </a> */}
           </div>
 
 
