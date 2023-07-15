@@ -46,7 +46,7 @@ function Userlist() {
     <div>
       <div className="container">
       <div class="center">
-            <h1>React Assement</h1>
+            <h1>React Assessment</h1>
             <div class="our-team-text"> List Demo 3rd party Package used React Inifinte Scroll,Axios
             </div>
         </div>
